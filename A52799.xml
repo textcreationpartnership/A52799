@@ -1,0 +1,516 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A funeral sermon preached at the merchants lecture at Pinner's-Hall, Broadstreet upon the death of the reverend Mr. Thomas Gouge who deceased Jan. 8 1699/1700 by John Nesbitt.</title>
+            <author>Nesbitt, John, 1661-1727.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 62 KB of XML-encoded text transcribed from 33 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A52799</idno>
+            <idno type="STC">Wing N440</idno>
+            <idno type="STC">ESTC R28719</idno>
+            <idno type="EEBO-CITATION">10745858</idno>
+            <idno type="OCLC">ocm 10745858</idno>
+            <idno type="VID">45628</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A52799)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 45628)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1407:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A funeral sermon preached at the merchants lecture at Pinner's-Hall, Broadstreet upon the death of the reverend Mr. Thomas Gouge who deceased Jan. 8 1699/1700 by John Nesbitt.</title>
+                  <author>Nesbitt, John, 1661-1727.</author>
+               </titleStmt>
+               <extent>[5], 50 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Marshall,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1700.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Gouge, Thomas, 1665?-1700.</term>
+               <term>Funeral sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-08</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-08</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:45628:1"/>
+            <pb facs="tcp:45628:1" rendition="simple:additions"/>
+            <p>A Funeral Sermon Preached at the Merchants Lecture, AT <hi>Pinner's-Hall, Broadſtreet,</hi> UPON THE DEATH of the Reverend Mr. <hi>Thomas Gouge,</hi> Who Deceaſed <hi>Jan.</hi> 8. 1699/1700.</p>
+            <p>By <hi>JOHN NESBITT.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>John Marſhall,</hi> at the <hi>Bible</hi> in <hi>Grace-Church-Street.</hi> 1700.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:45628:2" rendition="simple:additions"/>
+            <pb facs="tcp:45628:2"/>
+            <head>TO THE Relations and Friends Of the Reverend Mr. <hi>Thomas Gouge,</hi> DECEASED.</head>
+            <p>THE more Uſeful your Relation or Friend was to the World, and Delightful to you, the more Conſpicuous will your Graces appear, in a becoming Submiſſion to the Will of Him, who hath now remov'd him to a Better Place. We can't part with ſuch in whom we have Pleaſure, without Pain; nor can ſuch as have been united in Affection, part without a Sigh
+<pb facs="tcp:45628:3"/>
+and a Groan. To have no Senſe of what we ſuffer, or to part with our Friends as if we ſu<g ref="char:EOLhyphen"/>stained no Loſs, is Stupidity, and not Submiſſion; but while you feelingly complain to God, to ſhow your Affection, beware of complaining of him, or cenſu<g ref="char:EOLhyphen"/>ring his Diſpenſations, for he is accountable for None of his Ways; as he can't deny us that Mercy which we have Merited, ſo he can't take that from us which we have not Forfeited; there<g ref="char:EOLhyphen"/>fore it becomes you to ſay with David, <hi>I was Dumb, I o<g ref="char:EOLhyphen"/>pened not my Mouth, be<g ref="char:EOLhyphen"/>cauſe thou didſt it.</hi> 
+               <note place="margin">Pſal. 39. 9.</note>
+            </p>
+            <p>What I have ſaid of him, will appear to the Impartial, his Circumſtances being conſidered, to be a due Debt. If any of you
+<pb facs="tcp:45628:3"/>
+think I have ſaid too little, blame your ſelves, for not ma<g ref="char:EOLhyphen"/>king Choice of a more Skilful Hand, to repreſent him in his full Lustre. If any blame me for ſaying ſo much, that's ow<g ref="char:EOLhyphen"/>ing to the Living, who made it needful, and not to my Inclina<g ref="char:EOLhyphen"/>tion. If to think and ſpeak Ill of others is (as a Great Man hath Aſſerted) not only a bad thing, but a ſign of a bad Man, ſure I am, it's a very difficult thing to find a good Man in Converſation, when speaking Ill of others is ſo much in faſhion. It is a pity, when ſo many of all Parties ſeem to be bent for Diviſion, that ſuch ſhould ap<g ref="char:EOLhyphen"/>pear agreed and united only in this, to think the way to do Chriſt Service, and promote their own
+<pb facs="tcp:45628:4"/>
+Opinions, is by endeavour<g ref="char:EOLhyphen"/>ing to blaſt the Reputation of each other; I wiſh rather all Parties could learn to be Con<g ref="char:EOLhyphen"/>ſcientiouſly ſtrict to their own Principles and Perſwaſions, in Practice, and at the ſame time do all the Offices of Love and Kindneſs to each other, notwith<g ref="char:EOLhyphen"/>ſtanding our Differences, as be<g ref="char:EOLhyphen"/>comes the Diſciples of a Meek Jeſus.</p>
+            <p>As for this Diſcourſe, it is a Theme that is ſo often Preach'd and Publiſhed, and Calculated chiefly for Practice, that I muſt not expect, it will ſuite the Guſt and Reliſh of ſuch Airy Chriſtians as deſpiſe all Practical Diſcourſes; but if it may be Bleſt of God, to aſſiſt and excite any of you, or others,
+<pb facs="tcp:45628:4"/>
+ſo <hi>to number their Days, that they may apply their Hearts to Wiſdom,</hi> my De<g ref="char:EOLhyphen"/>ſign is obtained; which that it may, is the Earneſt Prayer of,</p>
+            <closer>
+               <signed>Your Sincere Friend and Servant in the Miniſtry of Chriſt Jeſus, <hi>John Nesbitt.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:45628:5"/>
+            <head>Books Printed for and Sold by <hi>John Marſhall,</hi> at the <hi>Bible</hi> in <hi>Grace-Church-Street.</hi>
+            </head>
+            <p>AN Elegiack. Eſſay Humbly Of<g ref="char:EOLhyphen"/>fered to the Pious Memory of the Late Reverend and Learned Mr. <hi>Matthew Mead,</hi> Miniſter of the Goſpel at <hi>Stepney,</hi> &amp;c. Alſo moſt of his Works.</p>
+            <p>The Effigies of Mr. <hi>Matth. Mead,</hi> newly Engraved to the Life, by an Ingenious Hand, far Excelling any before.</p>
+            <p>A Sermon on the Death of the Reverend and Learned Mr. <hi>Stephen Lobb.</hi> By <hi>Thomas Goodwin.</hi>
+            </p>
+            <p>A Declaration of the Congrega<g ref="char:EOLhyphen"/>tional Miniſters in and about <hi>Lon<g ref="char:EOLhyphen"/>don,</hi> againſt Antinomian Errors, <hi>&amp;c.</hi> The Second Edition. To which is added, The Teſtimony of ſome of the Miniſters in Behalf of the reſt.</p>
+            <p>The Divine Inſtitution of Con<g ref="char:EOLhyphen"/>gregational Churches, Miniſtry, and Ordinances. By <hi>Iſaac Chauncy.</hi>
+            </p>
+            <p>Variety without Vanity, or a Compact Number of Copies, with moſt Sorts of Copy-books, <hi>&amp;c.</hi> with Copies on the top to learn by: Alſo moſt Sorts of Books whereby to learn Short-hand. <hi>Rich</hi>'s Short-hand Teſtament and Pſalms.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:45628:5"/>
+            <pb facs="tcp:45628:6"/>
+            <pb n="1" facs="tcp:45628:6"/>
+            <head>A Funeral-Sermon.</head>
+            <epigraph>
+               <q>
+                  <bibl>ECCLES. vii. Verſe 2. The laſt clauſe.</bibl>
+                  <p>The Living will lay it to his Heart.</p>
+               </q>
+            </epigraph>
+            <p>IT is generally granted that Life is the moſt ineſtimable Jew<g ref="char:EOLhyphen"/>el of the Creation; the Fa<g ref="char:EOLhyphen"/>ther of Lyes in this ſpake Truth; That <hi>Skin for Skin,</hi> 
+               <note place="margin">Job 2. 4.</note> 
+               <hi>and all a Man hath he will give for his Life.</hi> Life tho' but in an In<g ref="char:EOLhyphen"/>fect, is more Glorious than the Sun that gave it both Breath and Be<g ref="char:EOLhyphen"/>ing. <hi>A Living Dog is better than</hi> 
+               <note place="margin">Eccl. 9. 4.</note> 
+               <hi>a Dead Lyon.</hi> Yet this Royal Prea<g ref="char:EOLhyphen"/>cher when he weighs the Godly
+<pb n="2" facs="tcp:45628:7"/>
+Man's Death, with the Day of his Natural Birth, he prefers the for<g ref="char:EOLhyphen"/>mer before the latter. The one is attended with a numerous train of Miſeries, whereas the other is the Believers deciding Stroak, and final Conqueſt over all his Enemies. Hence he perſwades us to allay the Sorrow and Toyl of a miſerable Life, by making preparation for a comfor<g ref="char:EOLhyphen"/>table Death; and the method pro<g ref="char:EOLhyphen"/>poſed, is to frequent Funerals rather than Feaſts. <hi>It is better to go to the Houſe of Mourning, than to the Houſe of Feaſting,</hi> and that for two Reaſons.</p>
+            <p>
+               <hi>Firſt,</hi> Becauſe while we are La<g ref="char:EOLhyphen"/>menting anothers Death, we may learn the Frailty of our own Life. <hi>For it is the end of all Men.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> The Influence it will have upon our Hearts and Practice. <hi>The Living will lay it to his Heart.</hi> Which paſſage I hope will not be thought unſuitable to the late Provi<g ref="char:EOLhyphen"/>dence, which gave me the ſad occa<g ref="char:EOLhyphen"/>ſion to make choice of it.</p>
+            <p>
+               <pb n="3" facs="tcp:45628:7"/>
+               <hi>Firſt,</hi> Here's a Duty mentioned <hi>Laying Death to Heart.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> You have the equity or reaſonableneſs of it. <hi>The Living will lay it to his Heart:</hi> As he Merits the Character of a Fool, nay of a Devil, that can make a mock of his own or anothers Sins, ſo he is <note place="margin">Prov. 14. 9.</note> juſtly eſteemed Dead, while Living, that with an unconcerned Eye can ſee Death's Conqueſt over others, which is the Fruit of Sin and the example of his own.</p>
+            <p>The Doctrine I purpoſe to pro<g ref="char:EOLhyphen"/>ſecute from theſe Words is this, <hi>When we hear or ſee Death remov<g ref="char:EOLhyphen"/>ing the beſt of Men and Miniſters, it is highly reaſonable to expect that the Living will lay Death to Heart.</hi>
+            </p>
+            <p>In managing this point I ſhall,</p>
+            <list>
+               <item>I. Show what it is to lay Death to Heart</item>
+               <item>II. The reaſonableneſs of it.</item>
+               <item>III. apply it.</item>
+            </list>
+            <p>
+               <hi>Firſt,</hi> What it is to lay Death to Heart.</p>
+            <p>
+               <pb n="4" facs="tcp:45628:8"/>
+               <hi>Firſt,</hi> To fix the Mind upon Dy<g ref="char:EOLhyphen"/>ing, to make it the Subject of our <note place="margin">Mente at<g ref="char:EOLhyphen"/>tendet.</note> ſerious Meditation: He that is a Wiſe Man will conſider his latter end, when he ſees an end is come to others before him: Some like the Prodigal laviſh out their Thoughts wholly about this World, and Death that will ſhortly ſnatch them from it, is quite forgotten; they like Archimedes are drawing their Pro<g ref="char:EOLhyphen"/>jects in the Duſt: Take no Alarum by the warnings that are given them, till the Enemy ſmite them down at once. Others think it too Melan<g ref="char:EOLhyphen"/>choly a Theme, and why ſhould they torment themſelves before the time, to think that this Body, care<g ref="char:EOLhyphen"/>fully kept and delicately fed, muſt change its preſent dwelling, to be<g ref="char:EOLhyphen"/>come not only a Companion, but a Banquet for Worms. Some they hope that their Sun is not yet arrived at its Meredian, and for them to think of Dying, is as if you would bid them go to Bed at Noon Day: When they have ſettled thire Affairs in the World; their Years are come,
+<pb n="5" facs="tcp:45628:8"/>
+in which they have no Pleaſure; when Old Age hath Snowed upon their Heads and devoured their ſenſual Pleaſures, then to think of Dying is a ſuitable Doctrine: But while their Blood is Sparkling in their Veins, it is not a convenient Seaſon: Nay, even the Believer tho' he is in ſafe<g ref="char:EOLhyphen"/>ty as to his Spiritual ſtate, is apt to ſhiver at the firſt view of this King of Terrors, as <hi>Job</hi> calls him, tho' with the Apoſtle he groan under the weight of his tireſom Taber<g ref="char:EOLhyphen"/>nacle, yet when he ſees the Hand that muſt deliver him, he deſires rather, that the Mortal Body might be cloathed with Immortal Glory; but tho' we fly from Death like <hi>Moſes</hi> from his Rod when turned into a <hi>Serpent,</hi> yet when we frequently take it up by the Hand of Faith, we ſee there is no harm nor danger in it. To lay Death to Heart is to ac<g ref="char:EOLhyphen"/>quaint our Thoughts with Dying.</p>
+            <p>
+               <hi>Secondly,</hi> To be duly affected with our concernment in it, he will not paſs it over with a ſlight apprehen<g ref="char:EOLhyphen"/>ſion, <hi>like a Natural Man beholding his
+<pb n="6" facs="tcp:45628:9"/>
+Face in a Glaſs, and ſtraightway for<g ref="char:EOLhyphen"/>getteth</hi> 
+               <note place="margin">Jam. 1.</note> 
+               <hi>what manner of Man he was.</hi> But he will work it upon his af<g ref="char:EOLhyphen"/>fections. <note place="margin">Inditurus est illud animoſuo. Trem.</note> I know there are many who Laugh at Death, and treat their diſſolution with Contempt and Scorn, like <hi>Gaal</hi> of old, who disdain'd <hi>Abi<g ref="char:EOLhyphen"/>melech,</hi> when at a diſtance, <hi>VVho is Abimelech that we ſhould ſerve him?</hi> And yet at the firſt attack cowardly <note place="margin">Judges 9. 38.</note> fled before him: Some are like the ſleepy Drunkard at eaſe in their Sins, and never lift up their Eyes till in the midſt of Hell Flames. That pro<g ref="char:EOLhyphen"/>feſſion, which ſerves many to keep up a Reputation in Religion, will prove too ſlender a defence againſt the Arrows of this King of Terrors. There are Three things which one <note place="margin">
+                  <hi>Mr. Sedg<g ref="char:EOLhyphen"/>wicks Ser<g ref="char:EOLhyphen"/>mon at the Funeral of Mr. Sr<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>g</hi> 1656.</note> ſaid many Years ago Prognoſti<g ref="char:EOLhyphen"/>cate approaching judgments, becauſe not duly regarded.</p>
+            <p>
+               <hi>Firſt,</hi> An unconcernedneſs of Spi<g ref="char:EOLhyphen"/>rit, when the Foundations of the Chriſtian Religion are overturned and deſtroyed, to ſee the Corner-Stone pull'd out, and we not affected.</p>
+            <p>
+               <pb n="7" facs="tcp:45628:9"/>
+               <hi>Secondly,</hi> To ſee the generality of Profeſſors contenting themſelves with an empty Name, without the power of Religion, <hi>No Man ſtir<g ref="char:EOLhyphen"/>ing up himſelf to takehold of</hi> a de<g ref="char:EOLhyphen"/>parting <note place="margin">Iſa. 64. 7.</note> 
+               <hi>God.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> To ſee the Miniſters of Chriſt deſpiſed and contemned. <hi>The</hi> 
+               <note place="margin">2 Chro. 36. 15, 16.</note> 
+               <hi>Lord had compaſſion on his people and on his dwelling place. But when they mocked the Meſſengers of God,</hi> &amp;c. <hi>Then Wrath aroſe, and there was no remedy.</hi> If the Am<g ref="char:EOLhyphen"/>baſſadors of Peace be reject<g ref="char:EOLhyphen"/>ed, the Herald's of War will fol<g ref="char:EOLhyphen"/>low them: And have we not the ſame Symptoms ſtill remaining? There are ſome things that are of great Moment, and very uncertain as to our enjoyment of them, and therefore we ſhould be deeply af<g ref="char:EOLhyphen"/>fected with them; one is the offers of the everlaſting Goſpel. <hi>O that</hi> 
+               <note place="margin">Luk. 19. 42</note> 
+               <hi>thou hadſt known in this thy Day. &amp;c.</hi> the Waters of Life will not al<g ref="char:EOLhyphen"/>ways run waſt by your Doors. If God's to Day be too ſoon, your to Morrow may be too late. Ano<g ref="char:EOLhyphen"/>ther
+<pb n="8" facs="tcp:45628:10"/>
+is the inward ſtriving of the Spirit. <hi>My Spirit ſhall not always</hi> 
+               <note place="margin">Gen. 6. 3.</note> 
+               <hi>ſtrive with Man.</hi> When you are un<g ref="char:EOLhyphen"/>der conviction take heed how they wear off: If they leave thee ſhort of a thro' cloſure with Chriſt, thou art undone for ever; and I may add our own Life, <hi>Is it not a Vapour that appeareth for a little while, and</hi> 
+               <note place="margin">Jam. 4. 14.</note> 
+               <hi>then uanquiſheth away?</hi> And yet an e<g ref="char:EOLhyphen"/>ternity depends upon it; ſurely then <note place="margin">Ex hoc mo<g ref="char:EOLhyphen"/>mento pen<g ref="char:EOLhyphen"/>det Eterni<g ref="char:EOLhyphen"/>ties.</note> the laying Death to Heart, is not practiſed till our affections are duly affected with our concernment in it and that,</p>
+            <p>
+               <hi>Thirdly,</hi> And Principally by re<g ref="char:EOLhyphen"/>ſolving in ſincerity to make ready for it. The Heart by Sin, is be<g ref="char:EOLhyphen"/>come both deſultory in its Medita<g ref="char:EOLhyphen"/>tions and deceitful in its Reſoluti<g ref="char:EOLhyphen"/>ons. I doubt not but this Day, there are many in the Chamber of utter Darkneſs, that in their way thithe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> had their ſecret purpoſes to reform their Courſes, only for the preſent they had not leiſure. We forget that Sin like <hi>Dalilah</hi> hath cut our Locks, and ſo purpoſe in our own
+<pb n="9" facs="tcp:45628:10"/>
+Strength, and go out in the Srength of our Reſolutions, and thence all our purpoſes are ſnapt aſunder like <hi>Sampſon</hi>'s Withs, when outward tem<g ref="char:EOLhyphen"/>ptations fall in with indwelling corruptions; but to reſolve in ſin<g ref="char:EOLhyphen"/>cerity, is with full purpoſe of heart, depending upon the Lord and the power of his might, to prepare to meet this formidable Enemy, and that with reſpect unto,</p>
+            <p>Iſt, Our Spiritual State; 2dly, With reſpect unto our preſent frame, the former is our ſafety, and the latter our comfort; every Believer dies ſafely, but he that is actually ready imbraces Death triumphant<g ref="char:EOLhyphen"/>ly and even before the Fight can ſing the Victory.</p>
+            <p>
+               <hi>Firſt,</hi> Then to prepare with re<g ref="char:EOLhyphen"/>ſpect unto your ſtate, and this in<g ref="char:EOLhyphen"/>cludes Three things.</p>
+            <p>Iſt. To be united unto Chriſt, and cloathed with his righteouſ<g ref="char:EOLhyphen"/>neſs. I know there are many wit<g ref="char:EOLhyphen"/>ty expreſſions and fortifying con<g ref="char:EOLhyphen"/>ſiderations ſcattered in the Writ<g ref="char:EOLhyphen"/>ings of Heathens to arm us againſt
+<pb n="10" facs="tcp:45628:11"/>
+Death's aſſults. But alas! All of them can't make an Armour of proof for a dying Man; the Sting of Death will pierce thro' all of them; nay bring in the righteouſ<g ref="char:EOLhyphen"/>neſs which thou haſt done, and that too will prove too ſcanty a Garment to cover thy ſhame. There is but one impregnable foretreſs, where this Enemy can never hurt you, and that is the Rock <hi>Jeſus:</hi> There is but one Robe that will effectually ſecure, as well as adorn thee, againſt this Enemy, and that is his Righteouſneſs: Death will find out every Man's ſtanding, whether it be in the firſt or ſecond <hi>Adam;</hi> if in the former, than all your Sins, are upon your Souls, and tho' now they ſeem light and ſit eaſy, yet every one of them will be hea<g ref="char:EOLhyphen"/>vier than a Milſtone to ſink thee in<g ref="char:EOLhyphen"/>to endleſs miſery; this the Apoſtle knew, when <hi>he deſired to be found in him, not having his own righteouſ<g ref="char:EOLhyphen"/>neſs,</hi> 
+               <note place="margin">Phil. 3. 9.</note> &amp;c. <hi>to be found in him,</hi> Notes his Spiritual union with <hi>Chriſt; not having mine own righte<g ref="char:EOLhyphen"/>ouſneſs
+<pb n="11" facs="tcp:45628:11"/>
+which is of the law.</hi> To ſignify the inſufficiency of all he could call his own, <hi>But that which is thro' the faith of Chriſt.</hi> Thereby owning that as he had no confi<g ref="char:EOLhyphen"/>dence in the fleſh, ſo his rejoycing was in <hi>Chriſt Jeſus,</hi> and his Right<g ref="char:EOLhyphen"/>eouſneſs; its in him and with him only, that you can dwell in ſafety, and through him you muſt obtain the Victory.</p>
+            <p>2dly, When your covenant ſtate between God and you is ſecured: It was this that made the Pſalmiſt <note place="margin">2 <hi>Sam.</hi> 23. 5.</note> of <hi>Iſrael</hi> ſing ſo ſweetly when ſtep<g ref="char:EOLhyphen"/>ping into Eternity: He views his Family, and there finds nothing to ſupport his departing Spirit, but when he Reads over the Charter of the Covenant, he begins the Songs of <hi>Zion,</hi> tho' not yet paſt the ſwellings of <hi>Jordan:</hi> Here he ſaw that peace between God and him which would abide in Death, and out-live the Grave. They that are without the Bond of the Covenant, who have never given their Heart and Hand to be
+<pb n="12" facs="tcp:45628:12"/>
+the Lord's, they may be dejected, and there is cauſe for it. But, <hi>Why</hi> 
+               <note place="margin">
+                  <hi>Pſ.</hi> 49. 5.</note> 
+               <hi>ſhould I fear in the day when the iniqui<g ref="char:EOLhyphen"/>ties of my heels compaſs me about:</hi> tho' not only Infirmities but many Ini<g ref="char:EOLhyphen"/>quities lay ſeige againſt the believ<g ref="char:EOLhyphen"/>ers Soul, yet why ſhould I be de<g ref="char:EOLhyphen"/>jected? <hi>For the Lord will redeem my</hi> 
+               <note place="margin">verſ. 15.</note> 
+               <hi>Soul from the power of the grave, my God will receive me.</hi> What tho' Death ſeem never ſo terrible, it hath loſt its Sting; Chriſt by his Croſs hath turned thoſe Waters of <hi>Ma<g ref="char:EOLhyphen"/>rah</hi> into a refreſhing Stream to all that are in Covenant with God thro' him: As in the firſt Covenant Death is the Meſſenger of Juſtice to drag the Sinner to execution, ſo in the New Covenant, it is the Meſ<g ref="char:EOLhyphen"/>ſenger of a Father to fetch his Chil<g ref="char:EOLhyphen"/>dren to thoſe Manſions Chriſt hath prepared for them; tho' death is continued in its natural conception, as it is a diſſolving of our Frame and Union between Soul and Body, yet it is not continued in its moral notion, as a penal ſatisfaction: Death it ſelf is put into the Be<g ref="char:EOLhyphen"/>lievers
+<pb n="13" facs="tcp:45628:12"/>
+Inventory, <hi>Death is yours.</hi> 
+               <note place="margin">1 Cor. 3. 22.</note> Death is to every Man according to the Covenant in which it finds him; if there be a Covenant of Peace between God and Thee, then thou may'ſt go out boldly and meet death as a real Friend, tho' in the Array of a formidable Enemy.</p>
+            <p>3dly, When your Hearts are ſan<g ref="char:EOLhyphen"/>ctfied and renewed, <hi>We are ſaved</hi> 
+               <note place="margin">Tit. 3. 5.</note> 
+               <hi>by the Waſhing of Regeneration and renewing of the Holy Ghost.</hi> Chriſt's Righteouſneſs will never be a de<g ref="char:EOLhyphen"/>fence to any but his own Image, If we take his Robe to cover us in our Sin, we do but deceive our own Souls: As death will wipe a<g ref="char:EOLhyphen"/>way all Tears from the Believer's Eyes, ſo it will take off the paint of Hypocritical Profeſſors; then elevated ſtrains ſhall not go for true Godlineſs, nor fair Words paſs for Charity, nor an empty Name for the power of Religion; he only ſhall appear an <hi>Iſraelite</hi> indeed that is without Guile, and hath true Grace or Wiſdom in the hidden parts. As Hypocrites, tho' they are embelliſh'd
+<pb n="14" facs="tcp:45628:13"/>
+with many gliſtering Orna<g ref="char:EOLhyphen"/>ments in the externals of Religion, yet they are always loathſom to God, becauſe of their unſeen un<g ref="char:EOLhyphen"/>cleanneſſes; ſo tho' Believers have many viſible Infirmities and Imper<g ref="char:EOLhyphen"/>fections, yet they are always glo<g ref="char:EOLhyphen"/>rious with the truth of Grace with<g ref="char:EOLhyphen"/>in, tho' like the Ark covered with coarſe Skins, yet pure Gold within; then do we truly lay death to heart, in preparing for it, when Sin in its dominion is caſt out of the heart, for he is a <hi>Jew,</hi> which is one In<g ref="char:EOLhyphen"/>ward and Goſpel Circumciſion <hi>is</hi> 
+               <note place="margin">Rom. 2. 29:</note> 
+               <hi>that of the heart, in the ſpirit.</hi> where theſe three are ſecured that Soul's ſtate is ſafe.</p>
+            <p>The ſecond preparation is to be actually ready for death: The for<g ref="char:EOLhyphen"/>mer is and hath been the care of every true Believer, but the neglect of this latter makes the meſſage of death ſtrangely ſurprizing to many real Chriſtians; inſtead of going out of the World like the Patriarch, ſaying, <hi>I have waited for thy Salva<g ref="char:EOLhyphen"/>tion;</hi> or like old <hi>Simeon, Now let<g ref="char:EOLhyphen"/>test
+<pb n="15" facs="tcp:45628:13"/>
+thou thy Servant depart in peace,</hi> 
+               <note place="margin">Luk. 2. 29.</note> they cry out like him, <hi>O ſpare</hi> 
+               <note place="margin">Pſal. 39. 13.</note> 
+               <hi>me that I may recover ſtrength be<g ref="char:EOLhyphen"/>fore I go hence and be no more;</hi> tho' the Believer's Righteous Soul, while here, is vexed with the filthy Con<g ref="char:EOLhyphen"/>verſation of the Wicked, yet like <hi>Lot</hi> he is ready to linger, when God calls him out of this <hi>Sodom</hi> of a World. Would you then, die not only in ſafety, but with joy, inſtead of being dragg'd forcibly, go out willingly; and while others have their Souls taken from them, thou, like thy Redeemer, give up thine into the hand of thy heaven<g ref="char:EOLhyphen"/>ly Father; for this purpoſe be con<g ref="char:EOLhyphen"/>ſcientious in theſe four things.</p>
+            <p>1. Let not the things of this World fix upon your Heart and Affections; it's difficult keeping the Heart chaſt for God when the Af<g ref="char:EOLhyphen"/>fections are intangled in the World; tho' your neceſſity will oblige you to drink of this <hi>Jael</hi>'s Cup, yet be<g ref="char:EOLhyphen"/>ware of ſleeping in her Tent; be<g ref="char:EOLhyphen"/>ware of its Syrene Songs and Mere<g ref="char:EOLhyphen"/>tricious Smiles; tho' neither Earth
+<pb n="16" facs="tcp:45628:14"/>
+nor Hell ſhall keep the Believer out of Heaven, yet they make many go halting thither. Maintain as much as poſſible the ſame opinion of your earthly enjoyments while living, as Men generally have <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> when dy<g ref="char:EOLhyphen"/>ing. Look upon them rather as Talents committed to Servants, to improve for their Maſter's uſe, than as abſolutely your own, as they are free Gifts, which we never deſer<g ref="char:EOLhyphen"/>ved, ſo be thankful to the Donor; and as they are Talents ſo we ſhould be faithful, becauſe we muſt give an account to our Lord and Maſter. <hi>So uſe this world as not to abuſe it,</hi> 
+               <note place="margin">1 Cor. 7. 31.</note> 
+               <hi>nor to have thy heart abuſed by it.</hi> When thou ſeeſt the Kingdoms of this World and the Glory thereof, beware of falling down and wor<g ref="char:EOLhyphen"/>ſhiping; let not the duſt of the Earth blind the eye of thy Faith, nor the pleaſures of it divide thy Love; whatever be the delight of your Eyes, be ſure that nothing but God in Chriſt be the delight of your Hearts.</p>
+            <p>
+               <pb n="17" facs="tcp:45628:14"/>
+2dly. Keep your Loyns girt and your Lamps Burning. As we are to ſtand actually ready for whatſoever ſervice our Lord may appoint us, whether doing or ſuffering; ſo we muſt in order thereunto keep every Grace in exerciſe. It was very ſurpriſing, to the Wiſe Virgins, when the mid-night cry came to go out and meet the Bridgroom, to find their Lamps untrim'd, tho' there was Oyl in their Veſſels. As <note place="margin">
+                  <hi>Gall.</hi> 2. 20.</note> we are to live by the Faith of the Son of God for daily influence, ſo we are to walk by Faith, as the eye to direct our Practice. Let it <note place="margin">2 <hi>Cor.</hi> 5. 7.</note> be your care to ſay with the Spouſe. <hi>At our gates are all manner of plea<g ref="char:EOLhyphen"/>ſant</hi> 
+               <note place="margin">
+                  <hi>Cant.</hi> 7. 15.</note> 
+               <hi>fruits, which I have laid up for thee, O my beloved.</hi> There you have plenty and variety. All manner of <hi>&amp;c,</hi> and they are at the Gate, that is actually ready; and all for the Beloved. As all Grace is derived from <hi>Chriſt</hi>'s fulneſs, ſo it's devoted to him for his ſervice. Let there be Faith, to follow him in dark Providences, patience to wait for
+<pb n="18" facs="tcp:45628:15"/>
+him under delays, meekneſs to guard thy Spirit from being ruffled by the ſcurrilites of a ſordid World. Love which makes every duty eaſy, and this is the way to have an abundant <note place="margin">2 Pet. 1. 11.</note> entrance into thy Maſter's joy.</p>
+            <p>3dly. Dye dayly unto Sin. It's Sin that will be the <hi>Achan</hi> and troubler of thy camp: This will make thee fly before this Enemy: This like <hi>Jonah</hi> will raiſe a Storm, if not caſt out. <hi>Guilt,</hi> that one word ſpoke by the Mouth of Conſcience, will be like a clap of Thunder in thy Boſom, it will make a dreadful convulſion in thy inner, when Death comes to attack thy outward Man, therefore keep thy Garments clean, and be often waſhing them in the Blood of the Lamb. Though thou art a Child of God, yet remember thou haſt that fuel ſtill in thee, that is very apt to catch the Devils Fire. Can a Traveller hold on his way rejoycing, with a Thorn in his Foot? No more can the believer with comfort march into Eternity with guilt lying upon his Conſci<g ref="char:EOLhyphen"/>ence.
+<pb n="19" facs="tcp:45628:15"/>
+               <hi>Wherefore, beloved, ſeeing that</hi> 
+               <note place="margin">2 <hi>Pet.</hi> 3. 14.</note> 
+               <hi>ye look for ſuch things, be diligent that ye may be found of him in peace, with<g ref="char:EOLhyphen"/>out ſpot and blameleſs.</hi> Walk circum<g ref="char:EOLhyphen"/>ſpectly, not as Fools, but as Wiſe, uncloathing your Souls as to the Old Man and his deeds, which are <note place="margin">
+                  <hi>Eph.</hi> 4. 22. 24.</note> corrupt, and putting on the New Man in Righteouſneſs and true Holi<g ref="char:EOLhyphen"/>neſs; and this is the way with joy to meet thy God.</p>
+            <p>4thly, And laſtly be faithful to <hi>Chriſt</hi> in thy particular and proper ſtation: <hi>Chriſt</hi> is the great Maſter and appointer of every Man's Work and Poſt in the World. Be thou faithful unto the Death and then <note place="margin">
+                  <hi>Rev.</hi> 2. 10.</note> comes the Crown of Life. <hi>John</hi>'s hearers were not ſollicitous about changing their imployments, but how they might ſerve God in them. How ſhall he that loyters with the ſluggard in his day for ſervice, in the Evening reſt from his Labours? Some Men are always buſie, but doing nothing in the great work of their Salvation. <hi>Why ſtand you here</hi> 
+               <note place="margin">
+                  <hi>Matt.</hi> 20. 6.</note> 
+               <hi>all the day idle?</hi> He that hath leaſt
+<pb n="20" facs="tcp:45628:16"/>
+hath one Talent, and if thou art not a wicked Servant, that will be improved for thy Lord. Does <hi>Solomon</hi> ſend the ſluggard to an inſect to be his Teacher? And may not many Chriſtians be ſent to the in<g ref="char:EOLhyphen"/>animate part of the Creation to learn to ſerve God in their particu<g ref="char:EOLhyphen"/>lar relations? <hi>The ſtars in their courſes fought for God againſt Siſera.</hi> He is the moſt excellent Chriſtian, that Honours God in his particular relations, in which he hath placed him. In ſhort, true Grace is no Friend to Idleneſs. Parents and Chil<g ref="char:EOLhyphen"/>dren, Maſters and Servants, Magi<g ref="char:EOLhyphen"/>ſtrates and Miniſters, have their work appointed them, in the World; and its our Buſineſs to be diligent in it: Would you then ſtand actua<g ref="char:EOLhyphen"/>ly ready? Follow the example of your Lord, Redeemer, who when a<g ref="char:EOLhyphen"/>bout to leave the World could ſay, <hi>I have finiſhed the work which thou</hi> 
+               <note place="margin">
+                  <hi>John</hi> 17. 4.</note> 
+               <hi>gaveſt me to do.</hi> Loſe not your preſent opportunities, but do the Work of him that ſent thee into this World, while it is day, that
+<pb n="21" facs="tcp:45628:16"/>
+thou mayeſt ſay with the Apoſtle. <hi>I have finiſhed my courſe, I have fought</hi> 
+               <note place="margin">2 <hi>Tim.</hi> 4. 7.</note> 
+               <hi>the good fight of Faith.</hi> I am now putting off my Sword, and have no more to do, but to receive the Crown. And Bleſſed is that Servant whom when his Lord comes he ſhall find thus ſtanding and thus doing: He hath no more to do, but to Die and enter into the joy of his Lord.</p>
+            <p>The Second thing I propoſed was to ſhow, That to lay Death to Heart, when we ſee it removing the beſt of Men and Miniſters, is but highly reaſonable. The Living will, <hi>de jure</hi> he ought to do it, and if a Wiſe Man <hi>de facto</hi> he will lay it to Heart, as hath been ſhown. And that,</p>
+            <p>
+               <hi>Firſt,</hi> Becauſe it's the end of all Men. No ſooner Man brought in Sin, but Death paſſed upon all Men. It's an innocent miſtake when in the Houſe of Mourning, where an end is come to another, to imagine it our own. It is but to antidate that which muſt certainly, and, it may be, ſhortly come. What if
+<pb n="22" facs="tcp:45628:17"/>
+in the ſucceſſion of many Ages God hath made two and but two Men's time run into eternity with<g ref="char:EOLhyphen"/>out interruption. Can we tell what change paſt upon them in their tranſlation? <hi>For this I ſay that</hi> 
+               <note place="margin">1 <hi>Cor.</hi> 15. 50.</note> 
+               <hi>Fleſh, and Blood,</hi> as now fram'd and faſhioned <hi>can't inherit the Kingdom of God:</hi> And thoſe that remain alive at our Lord's ap<g ref="char:EOLhyphen"/>pearing, tho they ſhall not Die as it is a diſſolution of the frame of Man, or ſeparation of the Soul and Body, yet they ſhall be changed to a fitneſs or capacity for the Glory <note place="margin">51, 52.</note> of that illuſtrious Day: Tho' the Life of Man admits of, many may<g ref="char:EOLhyphen"/>bes and peradventures, yet his Dy<g ref="char:EOLhyphen"/>ing admits of none. <hi>It is appointed for all Men once to die. The rich and</hi> 
+               <note place="margin">
+                  <hi>Heb.</hi> 9. 27.</note> 
+               <hi>poor are there.</hi> The Beggar Dyed and ſo did the Rich Man; all paſs through this Gate, tho' the ways immediately part upon it, like a Princes Palace that hath but one common Gate, at which Criminals and Children enter: The one goes up to his Fathers Manſions, the other
+<pb n="32" facs="tcp:45628:17"/>
+down to his Dungeon. Thus it is with good and bad. The Roſe of <hi>Sharon</hi> and Lillie of the Valley, tho' they are more Pleaſant and Beautiful while Living, yet they are not leſs Mortal than the common Graſs. The ſweet Singer of <hi>Iſrael</hi> muſt come to his laſt words, and the moſt charming Preacher to his laſt Sermon. Among the many Rules and Directions written for the pre<g ref="char:EOLhyphen"/>ſerving of Health, none was ever ſo mad as to pretend a Medicine that would turn away Death, for <hi>it's the end of all Men.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> The weighty but unſeen circumſtances that may attend our Dying: God hath as much appoin<g ref="char:EOLhyphen"/>ted the limits of our Lives, as the bounds of our habitations: The whole of our Days make up but a few Years, and they are full of Evil. The time at longeſt is but ſhort: But there are two circum<g ref="char:EOLhyphen"/>ſtances which ſhould moſt of all af<g ref="char:EOLhyphen"/>fect us, one is we know not the cri<g ref="char:EOLhyphen"/>tical moment when our Lord will come, whether, while weare young and
+<pb n="24" facs="tcp:45628:18"/>
+tender, or whether he will ſtay till <note place="margin">
+                  <hi>Luke</hi> 12. 40.</note> the Years come, in which we ſhall ſay we have no pleaſure. Another is the manner in which he will ſend for us; whether the thread of our Lives ſhall be ſnapt of a ſudden, or worn out by a lingering Con<g ref="char:EOLhyphen"/>ſumption? This Meſſenger Death will come, but can we tell where he will meet us, in the Street or in the Cloſet, on Bed or at Board? Can you tell in what Livery he will appear? Tho' Death be to the be<g ref="char:EOLhyphen"/>liever, the Meſſenger of a Father, yet thy Father may ſend for thee in a Chariot of Fire: May it not blow a Storm when thou art to launch out into the eternal ocean? Whereas a more gentle gale may waft another over. In a word, <hi>all</hi> 
+               <note place="margin">
+                  <hi>Pet.</hi> 1. 24.</note> 
+               <hi>fleſh is graſs, and the glory thereof as the flower of the graſs, the graſs wi<g ref="char:EOLhyphen"/>thereth,</hi> &amp;c. Can you tell what Hand God will uſe to cut it down? It may be the Hand of an Infant, the Teeth of an Inſect, or a blaſt of Wind; and if it ſtands long, of it ſelf, it's fading and withering:
+<pb n="25" facs="tcp:45628:18"/>
+Surely then it's but reaſonable to be affected with our Death before it come.</p>
+            <p>
+               <hi>Thirdly,</hi> Becauſe it is not the end of your being, but your entering upon an unchangeable condition. You don't ceaſe to be, but ceaſe to be Mortal: Now you fall into Sin, and there is a may be of your Recovering, but then, <hi>as the Tree falls ſo it lies:</hi> Now many that are caught in the Snare of the Devil, may be Reſcued by their Redeemer; but if you fall a Captive to Satan in this Rancounter, there's no Ranſom for ever. There's no miſtaking twice in this Warfare, nor is there any room to correct an Error. <hi>For there's no Work, nor De<g ref="char:EOLhyphen"/>vice,</hi> 
+               <note place="margin">
+                  <hi>Eccl.</hi> 9. 10.</note> 
+               <hi>nor Wiſdom in the Grave, whither thou art going.</hi> For you that are Believers, it's your going to meet your Head and Husband; and ſhall not the Lambs Wife make her ſelf ready: You are Wiſe Virgins, and is it not a reproach that the Wiſe ſhould ſleep with the Fooliſh; as this enters you upon a ſtate where there's no mixture, all pure Joy, or unmixt
+<pb n="26" facs="tcp:45628:19"/>
+Miſery, ſo it puts you beyond all changing; the Believer ſhall never more put to Sea, or be in a Storm again. And for you that are Unbe<g ref="char:EOLhyphen"/>lievers, there ſhall no more be a Meſ<g ref="char:EOLhyphen"/>ſenger of Peace to knock at your Doors, that which is now your de<g ref="char:EOLhyphen"/>ſire ſhall be your Doom: Now you deſire the Almighty to depart from you, and he will leave you to all E<g ref="char:EOLhyphen"/>ternity. O Sirs! this one Word E<g ref="char:EOLhyphen"/>ternity, if duly Weighed by us, ei<g ref="char:EOLhyphen"/>ther as it reſpects happineſs or Tor<g ref="char:EOLhyphen"/>ments; we could not look upon the Death of others without laying it to Heart, by Preparing for our own. Thus I have done with my Doctrine, which I may rather call an Applica<g ref="char:EOLhyphen"/>tion: I am afraid the Age we Live in, needs more to be urged to Practice, than entertained with the Explica<g ref="char:EOLhyphen"/>tion of what is more abſtruſe; ma<g ref="char:EOLhyphen"/>ny know much, and know that they do know, but few Practiſe what they know. What I have further to ſay, is to apply this Doctrine with reſpect unto the preſent occaſion; I might draw ſeveral Inferences from hence. As,</p>
+            <p>
+               <pb n="27" facs="tcp:45628:19"/>
+               <hi>Firſt,</hi> That the Chriſtian Religi<g ref="char:EOLhyphen"/>on does not forbid, but commend our ſympathiſing with thoſe that mourn for deceaſed Friends. Religion is not a rigid Sowerneſs; true Grace regulates, but does not deſtroy natu<g ref="char:EOLhyphen"/>ral Affections: Tears came in by the firſt <hi>Adam,</hi> and they were Legiti<g ref="char:EOLhyphen"/>mated by the ſecond, <hi>Jeſus wept:</hi> If we are not only to go, to the Houſe of mourning but to lay it to heart, ſure I am we are to be affected with thoſe that are afflicted in it.</p>
+            <p>
+               <hi>Secondly,</hi> I might collect how dif<g ref="char:EOLhyphen"/>ficult it is to make right Improve<g ref="char:EOLhyphen"/>ment, even of thoſe things that are moſt obvious: We live among the Monuments of the Dead, and it's of the Lord's Mercy, that we are ſpa<g ref="char:EOLhyphen"/>red. The Living <hi>know they muſt die.</hi> Some have the Harbingers of this King of Terrours, already come, and feel Death already invading them: The Records of the Grave, tell us, it's the Houſe of all Living, and yet how difficult is it to be af<g ref="char:EOLhyphen"/>fected with it. Some poſſibly will ſay, they have been hearing a very
+<pb n="28" facs="tcp:45628:20"/>
+common Theme this Morning, but canſt thou ſay by all the Funerals thou haſt frequented or Sermons, thou haſt heard, that thou haſt laid thy Death to Heart, by making ready both as to thy ſtate and frame, as hath now been ſhown?</p>
+            <p>
+               <hi>Thirdly,</hi> How irrationally do they act, who inſtead of laying Death to Heart, put it far from them, and lay Sin next their Heart, and in their Affection: They hug the <hi>Serpent</hi> that will Sting them, the Worm that will gnaw in their Boſoms to all e<g ref="char:EOLhyphen"/>ternity: God hath not given them the ſeeing Eye, nor the underſtand<g ref="char:EOLhyphen"/>ing Heart unto this Day. Some there are that carry it towards Death, as if they were able to Hector it to ſtay their leaſure, or elſe were re<g ref="char:EOLhyphen"/>ſolved [as one ſays] to try what Muſick there is in Weeping and Wail<g ref="char:EOLhyphen"/>ing joyned in conſort with Gnaſh<g ref="char:EOLhyphen"/>ing of Teeth: Such may truly be ſaid to be Dead while Living, <hi>for the li<g ref="char:EOLhyphen"/>ving</hi> &amp;c</p>
+            <p>
+               <hi>Second uſe by way of Exhortation.</hi>
+            </p>
+            <p>Shall not we that are Living lay
+<pb n="29" facs="tcp:45628:20"/>
+this to Heart, that Death hath be<g ref="char:EOLhyphen"/>reft us of one that uſed to be a Meſſenger of Peace from God to us in this Place: One did I ſay? I might have ſaid many: Or muſt I take up the Prophets complaint. <hi>The right<g ref="char:EOLhyphen"/>ous</hi> 
+               <note place="margin">
+                  <hi>Iſ.</hi> 57. 1. Nemo He<g ref="char:EOLhyphen"/>mo reponi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> in animo Junius.</note> 
+               <hi>Periſh, and no man layeth it to heart.</hi> Poſſibly you'll ask, when ſuch an one Died? What was his Diſt<g ref="char:EOLhyphen"/>emper? Who ſucceeds him? And in what condition is his Family left? And when this is done, your con<g ref="char:EOLhyphen"/>cern is over and gone. Is this to lay what is come to paſs to Heart? No! this doès evidence, that there was little Love to them while Living; when we can ſo eaſily forget them when Dead. Is the <hi>Staff</hi> and the <hi>Stay,</hi> the <hi>Ancient</hi> and the <hi>Prophet</hi> taken away, and will the Living not be affected.</p>
+            <p>I know Funeral Sermons have been much abuſed by daubing flattery, whence ſome have condemn'd them in groſs, and think their ought to be no more notice taken of the precious than of the vile: I grant that my work is not to praiſe the Dead, but
+<pb n="30" facs="tcp:45628:21"/>
+to inſtruct the Living; and if I ſhould attempt a panigyrick in this caſe, it would be to put Paint upon pure Gold: However, oppreſſed Inno<g ref="char:EOLhyphen"/>ence ought to be vindicated, and ſhameleſs Sinners ought to be re<g ref="char:EOLhyphen"/>proved, whether they will, or will not regard it. I ſhall therefore men<g ref="char:EOLhyphen"/>tion Three, things which if well con<g ref="char:EOLhyphen"/>ſidered, will ſhow what juſt reaſon there is to be deeply affected.</p>
+            <list>
+               <item>1ſt. The Perſon.</item>
+               <item>2dly. The Seaſon.</item>
+               <item>3dly. The hand the Living had in it.</item>
+            </list>
+            <p>
+               <hi>Firſt,</hi> For the Perſon, not that I pretend to tell you his worth, for that would ſuppoſe I knew all he was. Only give me leave to ſpeak of him under a double capacity. 1ſt As a gracious Man. 2dly. As a Mi<g ref="char:EOLhyphen"/>niſter of <hi>Jeſus Chriſt.</hi>
+            </p>
+            <p>
+               <hi>Firſt,</hi> As a gracious Man. True Grace is the laſting Foundation of Honour and Greatneſs. Let Hell and Earth unite their Malice to contradict
+<pb n="31" facs="tcp:45628:21"/>
+it, the Oracles of Heaven will main<g ref="char:EOLhyphen"/>tain <note place="margin">
+                  <hi>Pſ.</hi> 112. 6.</note> it, That <hi>the righteous ſhall be in everlaſting remembrance.</hi> In him, Heaven gave an early confutati<g ref="char:EOLhyphen"/>on of that opprobrious, but too common reflection, That Miniſters Children, of all others, ſeldom mind Religion: He could ſay, and that truly too, as <hi>Obadiah</hi> did, <hi>Thy ſer<g ref="char:EOLhyphen"/>vant feared the Lord from my youth.</hi> 
+               <note place="margin">1 <hi>Kings</hi> 18. 12.</note> He was early Planted in the Beams of the Sun of Righteouſneſs; and thereby quickly ripened to do his Maſter eminent Service: He not only from a Child knew the Scrip<g ref="char:EOLhyphen"/>tures, but through them was <hi>made</hi> 
+               <note place="margin">2 <hi>Tim.</hi> 3. 15.</note> 
+               <hi>wiſe unto Salvation.</hi> Nor was his goodneſs like the Morning Cloud and the early Dew, but like <hi>the ſhining light which ſhineth more and</hi> 
+               <note place="margin">
+                  <hi>Prov.</hi> 4. 18.</note> 
+               <hi>more unto the perfect day.</hi> Tho through conſtant labour in his Ma<g ref="char:EOLhyphen"/>ſters Vineyard, and other afflictive providences, he contracted an early weakneſs in his outward Man; ſo that his <hi>Strength was weakned in the way.</hi> Yet it was evident, that by the influence of his Living Head, his in<g ref="char:EOLhyphen"/>ner
+<pb n="32" facs="tcp:45628:22"/>
+Man grew Day by Day. Were I to tell you the various Trials with which he was exerciſed, and his carriage in them, you would them ſay in him patience had its perfect Work: And had I time and you pa<g ref="char:EOLhyphen"/>tience to ſpeak of the ſeveral graces which flouriſhed in him, in the various Relations and Capacities, in which his Lord plac'd him. It would appear beyond contradiction, that Grace ſhin'd, with that Divine and Spiritual Glory, in the courſe of his Converſation; that if the Ma<g ref="char:EOLhyphen"/>lice of any ſhould infatuate them to deny it: None who truly knew him, will ever believe them: And as he Lived by the Faith of the Son of God, ſo he Died like him. (Far from an im<g ref="char:EOLhyphen"/>placable Spirit) not without having begg'd that God would pardon and bleſs, even them, that had acted a cruel Tragedy towards him.</p>
+            <p>
+               <hi>Secondly,</hi> Conſider him <hi>as a Mini<g ref="char:EOLhyphen"/>ſter;</hi> his Soul was better taught, than to think the Miniſtry, a Work to be undertaken without, or with a meer ſuperficial Tincture of Learning;
+<pb facs="tcp:45628:22"/>
+               <pb facs="tcp:45628:23"/>
+               <pb n="33" facs="tcp:45628:23"/>
+and therefore, while he lifted up his Voice for <hi>
+                  <g ref="char:V">Ʋ</g>nderſtanding,</hi> he alſo ſought &amp; ſearcht in all the ordinary Ways for attaining <hi>Wiſdom,</hi> &amp; thro' <note place="margin">
+                  <hi>Prov.</hi> 2. 3, 4.</note> the happy Conjunction of a <hi>Penetra<g ref="char:EOLhyphen"/>ting Mind, an Active Phancy,</hi> and a <hi>Tenacious Memory,</hi> with the Bleſſing of Heaven upon his <hi>great Induſtry,</hi> his profiting ſoon appear'd to the great Judges of Learning then living, inſo<g ref="char:EOLhyphen"/>much, that before he was 22 Years of Age (as far as I can learn) he was fixed in the paſtoral Relation at <hi>Am<g ref="char:EOLhyphen"/>ſterdam.</hi> And this I the rather menti<g ref="char:EOLhyphen"/>on, becauſe there are ſome that think no Young Men is to be call'd into that Relation. I readily grant, the Apo<g ref="char:EOLhyphen"/>ſtles <hi>Novice</hi> is to be ſhunn'd for the <note place="margin">1 <hi>Tim.</hi> 3. 6</note> Reaſon there mention'd; but our Apoſtle does not uſe the Word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> a Young Man, but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> a Man young in Religion; or newly plant<g ref="char:EOLhyphen"/>ed into Chriſt and his Communion, an old Man with gray Hairs upon him, if but newly planted in Grace is the Apoſtles Novice; ſuch as are not rooted in Chriſt Jeſus, and leſs in Learning, may fall under the A<g ref="char:EOLhyphen"/>poſtles
+<pb n="34" facs="tcp:45628:24"/>
+Doom, but where God hath begun by times to lay in and ſtore with Grace and Learning; what is his Deſign but to have a quick Re<g ref="char:EOLhyphen"/>turn, when he finds Employment for them, and ſuch an one was our truly old, when in Nature a young Man. Tho' his Miniſterial Labours were great, in which he ne<g ref="char:EOLhyphen"/>ver ſerved God with that which coſt him naught; and but rarely any Aſſiſtance enjoyed: Yet his Active Soul was ſo deeply inlaid with the Love of Learning, that without much Danger of an Hyperbole, I might apply to him what was ſaid <note place="margin">Bibliothe<g ref="char:EOLhyphen"/>cam Vivam &amp; Ambu<g ref="char:EOLhyphen"/>lans Muſe<g ref="char:EOLhyphen"/>um. <hi>Coni<g ref="char:EOLhyphen"/>gii</hi> Biblioth.</note> of <hi>Longinus,</hi> he became a Living Library. If any would Query what was his Learning? I might anſwer in the ſeveral parts of it, both as to Words and Things; but that which was his Delight and his Honour, was to be intimately acquainted with the Myſtery of <hi>God-man</hi> his Redeemer; his Thoughts run much upon the Corner Stone, and only Foundation of our Religion; and tho' his Strength was much impared before
+<pb n="35" facs="tcp:45628:24"/>
+he appeared in this City, yet there was ſo much left as to give abund<g ref="char:EOLhyphen"/>ant Evidence of the Greatneſs of Thought and Spring of Learning that lodg'd within; while his Thoughts travell'd moſt in the higher Rounds of the Chriſtian Re<g ref="char:EOLhyphen"/>ligion: He gave alſo abundant Evi<g ref="char:EOLhyphen"/>dence of his Accuracy in diſtinguiſh<g ref="char:EOLhyphen"/>ing and applying ſuch practical Points <hi>as accompany Salvation.</hi> This <note place="margin">Heb. 6. 9. His last Sermons at <hi>Pinners-Hall.</hi>
+               </note> Light burnt clear, but faſt; and tho' his afflicted Friends and Relations were ready ſometimes to conceive Hopes of his emerging from his Weakneſſes, yet the Clouds gathe<g ref="char:EOLhyphen"/>red after Rain, and the Storms ſoon return'd again; but tho' the Winds blew, and the Storms beat upon his battered Bark, yet in Patience he poſſeſt his Soul, his Faith was firm without wavering, that Jeſus which he had laid for many to build upon, was his Stay: In this Rock he ſtood, and with undaunted Courage, en<g ref="char:EOLhyphen"/>countr'd this laſt Enemy, truſting in the Lord. This is the Chriſtian, this is the Miniſter, that is dead. Dead
+<pb n="36" facs="tcp:45628:25"/>
+did I ſay; I muſt recal that Word, <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Acts.</hi> 7. 4.</note> and ſay (his Aged Father yet living) God hath removed him from this <hi>Ur,</hi> to be, not a Sojourner, but an everlaſting Inhabitant in the Hea<g ref="char:EOLhyphen"/>venly <hi>Canaan,</hi> where he ſhall ſhine as the Stars for ever and ever, ha<g ref="char:EOLhyphen"/>ving been made wiſe in turning ma<g ref="char:EOLhyphen"/>ny unto Righteouſneſs. <note place="margin">
+                  <hi>Dan.</hi> 12. 3.</note>
+            </p>
+            <p>
+               <hi>Secondly,</hi> Conſider <hi>the Seaſon of it.</hi> That which cut the Patriach <hi>Ja<g ref="char:EOLhyphen"/>cob</hi> to the Heart, was, that when <hi>Simeon</hi> was not, and <hi>Joſeph</hi> was not, to hear that <hi>Benjamin</hi> muſt be taken from him too. We might, accord<g ref="char:EOLhyphen"/>ing to the Courſe of Nature, have expected our Brothers abode with us, for many Years: But lo! An E<g ref="char:EOLhyphen"/>vening is come, when but a little paſt the Meridian of Man, and this come upon us while our Wounds were bleeding: The other day we were lamenting the Loſs of one that had laboured long, and with great Suc<g ref="char:EOLhyphen"/>ceſs in his Lords Vineyard: <hi>The Arms of his Hands were made ſtrong,</hi> 
+               <note place="margin">
+                  <hi>Gen.</hi> 49. 24.</note> 
+               <hi>by the Hands of the Mighty God of Jacob;</hi> One, who for great Grace,
+<pb n="37" facs="tcp:45628:25"/>
+ſolid and well digeſted Learning, for Might and Majeſty in weilding the Sword of the Spirit, <hi>was an Interpre<g ref="char:EOLhyphen"/>ter</hi> 
+               <note place="margin">
+                  <hi>Job.</hi> 33. 23.</note> 
+               <hi>one of a Thouſand.</hi> His extenſive Affection and Charity, maintain'd in him a conſtant Tenderneſs toward even thoſe that differ'd from him, tho' he ſorely ſuffered for main<g ref="char:EOLhyphen"/>taining a Conſcientious diſſent from them, in Diſcipline and Government. And is he no ſooner gone, but an other muſt follow him? As if Heaven deſigned a Succeſſion of Loſſes, till we have no more to looſe. To take a Tile from a Houſe is ſoon repaired, but to take away the Buttreſſes from a leaning Wall, or the Pillars on which the Houſe ap<g ref="char:EOLhyphen"/>pears to lean, is as if the Owner de<g ref="char:EOLhyphen"/>ſigned the Building to ſink into Ru<g ref="char:EOLhyphen"/>ines; the Loſs of an immortal Soul, the Loſs of the everlaſting Goſpel, and the Loſs of a faithful godly Mi<g ref="char:EOLhyphen"/>niſter, are the greateſt Loſſes that can befall us. And if we are truely af<g ref="char:EOLhyphen"/>fected with the Loſs of the two for<g ref="char:EOLhyphen"/>mer, we can but lay to heart the Death of the latter, ſo that while we ought to rejoyce, <hi>quod talem ha<g ref="char:EOLhyphen"/>buimus,</hi>
+               <pb n="38" facs="tcp:45628:26"/>
+that we had ſuch a one, we ought to be concerned that now he is taken from us, and that when ſo many were ſo lately gone before him.</p>
+            <p>Thirdly, <hi>The Hand the living had in it: When Gods Judgements are on</hi> 
+               <note place="margin">
+                  <hi>Iſa.</hi> 26. 9.</note> 
+               <hi>the Earth, the Inhabitants of the World will learn Righteouſneſs;</hi> its but rea<g ref="char:EOLhyphen"/>ſonable to expect, when ſuch things are done by the hand of God, that we put the Queſtion, am I the Per<g ref="char:EOLhyphen"/>ſon that hath provoked Heaven to remove from Earth, ſuch a Bleſſing? I readily own, that Miniſters are but Men, tho' their Graces be great, yet they are but in their Mi<g ref="char:EOLhyphen"/>nority, and the greateſt <hi>Men are not</hi> 
+               <note place="margin">
+                  <hi>Job</hi> 32. 9.</note> 
+               <hi>always Wiſe;</hi> I allow alſo, that God never does any thing toward his Children in a way of harſh Provi<g ref="char:EOLhyphen"/>dence, but he ſees cauſe enough in them for his procedure in ſuch a way with them: God tells <hi>Moſes,</hi> that he ſhould not paſs over <hi>Jordan,</hi> into the Earthly <hi>Canaan,</hi> becauſe of <note place="margin">
+                  <hi>Compare Deut.</hi> 32, 51. <hi>with</hi> 1. 37. <hi>and</hi> 4. 21.</note> his own Tranſgreſſion; and yet <hi>Mo<g ref="char:EOLhyphen"/>ſes,</hi> by the Spirit of God, lays it at the Peoples Door, as the Cauſe why
+<pb n="39" facs="tcp:45628:26"/>
+it went thus ill with him. Tho' eve<g ref="char:EOLhyphen"/>ry Mans time is appointed, and the Inſtruments by which his Death is brought about, are under the Or<g ref="char:EOLhyphen"/>ders of a wiſe Providence, yet the Inſtruments are not the leſs guil<g ref="char:EOLhyphen"/>ty, that have been voluntary A<g ref="char:EOLhyphen"/>gents: <hi>Offences muſt come, but woe to them by whom they come;</hi> Chriſt's Death was in every part of it, ac<g ref="char:EOLhyphen"/>cording to the Counſel of God; yet the Inſtruments and their Chil<g ref="char:EOLhyphen"/>dren to this day, lie under his anger for it; I muſt ſpeak it on the behalf of him whoſe Death gave me this ſad Occaſion: Was he not wounded in the Houſe of his profeſſed Friends; or did he not ſuffer more by divided Friends (as they pretended to be) than u<g ref="char:EOLhyphen"/>nited Enemies? They that are guil<g ref="char:EOLhyphen"/>ty will poſſibly ſay like the who<g ref="char:EOLhyphen"/>riſh Woman, who, <hi>when ſhe hath eaten, wipeth her Mouth, and ſays, I</hi> 
+               <note place="margin">
+                  <hi>Prov.</hi> 30. 20.</note> 
+               <hi>have done no Wickedneſs.</hi> There is a levelling Spirit yet in our World, and that among ſome who bear their Heads high above others for
+<pb n="40" facs="tcp:45628:27"/>
+Religion; my meaning is, that thoſe who never had any Repu<g ref="char:EOLhyphen"/>tation of their own, are prodigal in murdering and waſting the Re<g ref="char:EOLhyphen"/>putation of other Men, that none may ſeem better or above them<g ref="char:EOLhyphen"/>ſelves. That which the Apoſtle foretold, ſeems to be now fulfil<g ref="char:EOLhyphen"/>led, a ſpreading Leprofie of vile <note place="margin">2 <hi>Tim.</hi> 3. 3, 4, 5.</note> Sins prevailing; and that which makes it both more odious and dangerous, is, they cover it under a Form of Godlineſs; they intitle Heaven to the Eruptions of Hell, and lay their own Brats at God's Door. If any ſhould ask me, what have they done in this Matter? I ſhall only return that Anſwer which <hi>Plato</hi> did, when <hi>Dioniſius</hi> the Tyrant wrote to him, deſiring he would not report his evil Prac<g ref="char:EOLhyphen"/>tices; <note place="margin">
+                  <hi>Diog. La<g ref="char:EOLhyphen"/>ert.</hi> in vit. <hi>Plat.</hi> non ſibitantum ſuper eſſe otti, <hi>&amp;c.</hi>
+               </note> to whom <hi>Plato</hi> made this Return, <hi>He had not ſo much Leiſure as to think or ſpeak of him</hi>—Mean<g ref="char:EOLhyphen"/>ing, he had better things to em<g ref="char:EOLhyphen"/>ploy his thoughts and time about, than to relate the noted Barbari<g ref="char:EOLhyphen"/>ties and unparaleil'd Cruelties of a
+<pb n="41" facs="tcp:45628:27"/>
+Perſon, who was ſo very notorious that their needed no Hiſtorian to inform the World of him, or them. But when I have ſaid this, I muſt be juſt to many of them, where for a time he ſtood in a paſtoral Relation. Such there were who truly Lov'd him, and now la<g ref="char:EOLhyphen"/>ment the loſs of him; they were reall Mourners for, tho' they could not be healers of their breaches, of whom I dare not doubt, but their Achans being gone and the troub<g ref="char:EOLhyphen"/>lers of their <hi>Iſrael</hi> departed, they will remain a peacable Habitation, and may yet revive and flouriſh under the Bleſſing of Heaven, upon this I would leave theſe two or three cautious.</p>
+            <p>
+               <hi>Firſt,</hi> Let not this prejudice any at Church order. Will any Wiſe Man ſpeak againſt Li<g ref="char:EOLhyphen"/>berty, becauſe ſome by it, grow licentious? Or will any affect an abſolute Tyranny to live in a ſlaviſh Subjection, becauſe a well con<g ref="char:EOLhyphen"/>ſtituted Government is now and then afflicted with a popular commotion? It were eaſy to make it appear both from Scripture and Hiſtory, that the beſt conſtituted Churches have not been exempted from ſuch diſturb<g ref="char:EOLhyphen"/>ances. Weeds will ſpring up in the moſt regular Gardens, Vermin will crawl amongſt the ſweeteſt Roſes. Think not worſe of Churches, becauſe now and then in them there appears a <hi>Diotrephes,</hi> to diſturb their peace, and cauſe diviſions.</p>
+            <p>2dly. Let Church Members, beware how they begin contention, beware of drawing at
+<pb n="42" facs="tcp:45628:28"/>
+either end of that Saw, a little ſpark may not only burn down your own, but your Neighbours dwelling. It's eaſy giving vent to Paſſion, but its like the breaking out of Water not eaſily reclam'd again, and an <hi>of<g ref="char:EOLhyphen"/>fended</hi> 
+               <note place="margin">
+                  <hi>Prov.</hi> 18. 19.</note> 
+               <hi>brother is harder, to won than a ſtrong Tower.</hi>
+            </p>
+            <p>3dly, Let Churches be prudent and care<g ref="char:EOLhyphen"/>ful whom they admit to their Fellowſhip. Its eaſier letting in, than it is to caſt out. Thus I have finiſhed the firſt Exhortation to lay this our loſs to heart, from the conſideration of the <hi>Perſon,</hi> the <hi>Seaſon,</hi> and <hi>the hand the living had in it.</hi>
+            </p>
+            <p>The ſecond Exhortation I would a little proſecute is, to thoſe, who are ſetting their Heart and Hand to Chriſt's Plow. Thoſe who are ingaged at leaſt in their ſtudies and pur<g ref="char:EOLhyphen"/>poſes for the Miniſtry, or but entered upon it, I hope they will not think me too aſſum<g ref="char:EOLhyphen"/>ing in what I ſay to them; nor would I have others think I flatter, becauſe I am not aſha<g ref="char:EOLhyphen"/>med to ſay I ſincerely Love them. Your work is great, and difficulties many; yet in the very work, there is a reward. The mea<g ref="char:EOLhyphen"/>neſt Station about a King is Honourable. What is it then to ſtand next the King of Kings? I know ſeveral, I wiſh I knew more, of whom I dare not doubt, but that they are Plants of God's own Planting, and un<g ref="char:EOLhyphen"/>der his Bleſſing ſhall ſtand up in his Work and Service in the room of thoſe who now reſt from their Labours: To ſuch I would recommend theſe things.</p>
+            <p>
+               <pb n="43" facs="tcp:45628:28"/>
+               <hi>Firſt,</hi> Labour to have your heart eſtabliſhed with Grace, as well as your Heads with knowledge; with<g ref="char:EOLhyphen"/>out the Oil of Grace, you will never make laſting Lights, burning and ſhining for the Reputation and Ho<g ref="char:EOLhyphen"/>nour of your Lord and Maſter, and without Knowledge, you'll hand out Poyſon, in ſtead of ſpiritual Food; God complains of <hi>ſome that handled</hi> 
+               <note place="margin">
+                  <hi>Jer.</hi> 2. 8.</note> 
+               <hi>the Law, they knew him not;</hi> that is, God and they had no ſpiritual ac<g ref="char:EOLhyphen"/>quaintance, they were void of Grace. The Apoſtle ſpeaks of others <hi>that</hi> 
+               <note place="margin">1 <hi>Tim.</hi> 1. 7.</note> 
+               <hi>were deſirous to be teachers of the law, underſtanding neither what they ſay, nor whereof they affirm.</hi> Such ſeek what they can get, but not to be fit for what they undertake; it hath been obſerv'd, <hi>That Hereticks are al<g ref="char:EOLhyphen"/>ways fond of ignorant Upſtarts;</hi> be<g ref="char:EOLhyphen"/>cauſe ſuch are moſt apt to be taken with Popular Applauſe; but when Head and Heart are thus qualified, then like a well-built and ballac'd Ship, you will be able to ſteer a ſtea<g ref="char:EOLhyphen"/>dy Courſe thro all the Storms of this World.</p>
+            <p>
+               <pb n="44" facs="tcp:45628:29"/>
+               <hi>Secondly,</hi> Joyn much Prayer and Meditation to your ſtudying. Study is to make you uſeful to others, but Prayer and Meditation brings it home to your own Souls: He that is the moſt earneſt Solicitor at the Throne of Grace, is like to be the moſt powerful Perſwader in deli<g ref="char:EOLhyphen"/>vering his Meſſage, ſtorm Heaven, If you would prevail with Men, get your own Heart warm'd with the Love of God in Private, and then you'll be earneſt with others in the Pulpit.</p>
+            <p>
+               <hi>Thirdly,</hi> Let the Miniſtry be your Work, to which your Souls and Hearts are devoted; make it your work in preparing: He that does not prepare what to ſay, tempts God to come out of his ordinary Courſe to his aſſiſtance; he that depends upon his own Preparations, makes a God of his Gifts. Let it be your work in delivering; ſhew that your Buſineſs is rather to profit Souls than pleaſe the Ear; beware of an <hi>affected Niceneſs</hi> in expreſſion, and ſhun a ſor did rudeneſs, leaſt it cauſe a loath<g ref="char:EOLhyphen"/>ing
+<pb n="45" facs="tcp:45628:29"/>
+of ſpiritual Food. Let it be your work in Living, as well as Preach<g ref="char:EOLhyphen"/>ing; beware of pulling down with your hands, what you build with your mouths; in a word, if the Mi<g ref="char:EOLhyphen"/>niſtry be thy work thou'llt give thy ſelf to it, and thereby in a little time do much for God: And what if diſ<g ref="char:EOLhyphen"/>courag'd by the World, ſeeing <hi>your labour is not in vain in the Lord,</hi> it will be more Honour and Glory in the Day of Chriſt, to have been an Inſtrument in bringing one Soul to Heaven, than if thou hadſt con<g ref="char:EOLhyphen"/>quer'd a World, and brought it un<g ref="char:EOLhyphen"/>der thy power; and what if you ſeem <hi>to labour in vain, and ſpend your ſtrength for nought,</hi> when <hi>your judg<g ref="char:EOLhyphen"/>ment</hi> 
+               <note place="margin">
+                  <hi>Iſa.</hi> 49. 4.</note> 
+               <hi>is with the Lord, and your Re<g ref="char:EOLhyphen"/>ward with your God.</hi>
+            </p>
+            <p>The <hi>laſt Exhortation</hi> is to you that are Hearers: Is God by Death remo<g ref="char:EOLhyphen"/>ving your Uſeful Guides and Inſtru<g ref="char:EOLhyphen"/>ctors from you? Lay this to Heart:</p>
+            <p>Firſt, <hi>In being cautious to whom you commit the Care and Conduct of your Souls.</hi> How ſhall they teach you the Myſteries of Salvation, who
+<pb n="46" facs="tcp:45628:30"/>
+themſelves are ignorant of them? Its an eaſie matter to run into the Mini<g ref="char:EOLhyphen"/>ſtſy, but not ſo eaſie to be a <hi>Miniſter:</hi> What was <hi>opprobriouſly</hi> ſaid of old, may be here applied, <hi>Many Servants</hi> 
+               <note place="margin">1 <hi>Sa.</hi> 25. 10.</note> 
+               <hi>run away now a days from their Maſt<g ref="char:EOLhyphen"/>ers,</hi> I wiſh there were no cauſe to ſay, many run from that which is their ſervice, into that they were never called nor ſent of God. There is an univerſal complaint, that the Spirit is much withdrawn, but if you view Mens running in this great Work of the Miniſtry without regard to the ordinary ways for attaining Qua<g ref="char:EOLhyphen"/>lifications for ſuch an undertaking; you muſt allow that either the Mi<g ref="char:EOLhyphen"/>niſtry is become a more eaſie buſi<g ref="char:EOLhyphen"/>neſs to diſcharge, than ever it was judg'd to be formerly, or that there is an Extraordinary Effuſſion of the Spirit, by which Men of a ſuddain are qualified for it, or elſe we are under a dreadful Judgment.</p>
+            <p>I am not ſuch a ſuperſtitious A<g ref="char:EOLhyphen"/>dorer of Learning, as to leſſen or Exclude the Work of the Spirit, I know the Spirit can qualifie Perſons
+<pb n="47" facs="tcp:45628:30"/>
+for his Work; but then, what others muſt ſeek in an ordinary way, that he does by his extraordinary pow<g ref="char:EOLhyphen"/>er; and when extraordinary Opera<g ref="char:EOLhyphen"/>tions are not to be expected, at leaſt, are profeſſedly own'd in the preſent poſture of Affairs to be departed, we are to ſeek in the ordinary way to attain ſuch Qualifications as are needful in that work; the neglect<g ref="char:EOLhyphen"/>ing of which is but a gratifying the Deſigns of thoſe who are ſeveral ways aſſaulting our Religion: which are chiefly Two:</p>
+            <p n="1">1. <hi>Advancing Reaſon above and againſt Revelation:</hi> As if, like the Moon, it never ſhin'd ſo brightly as when in oppoſition to the Sun; they appeal to this as the ſupream Judge for Faith and Practice; as if it were not our trueſt Reaſon, <hi>to prefer the Mind and Word of an infinite Being, before our own finite underſtanding:</hi> Much more intolerable is this Arro<g ref="char:EOLhyphen"/>gance, when they have ſo debas'd and debauch'd their Rational Pow<g ref="char:EOLhyphen"/>ers, that they are not able to judge in things of a Man, and yet will appeal
+<pb n="48" facs="tcp:45628:31"/>
+to them only, as the great and ſu<g ref="char:EOLhyphen"/>pream Decider of all Matters relating to God and the Chriſtian Religion.</p>
+            <p n="2">2. <hi>By decrying a Standing Mini<g ref="char:EOLhyphen"/>ſtry in the Church of God:</hi> Every one of the Lord's People are Pro<g ref="char:EOLhyphen"/>phets (Would to God the Spirit of the Prophets appear'd in all that profeſs and claim the Priviledge!) A Standing Miniſtry is a Humane Invention, and a piece of meer Su<g ref="char:EOLhyphen"/>perſtition, and the Idol Learning is only to make ignorant People cre<g ref="char:EOLhyphen"/>dit, and raſhly receive what they im<g ref="char:EOLhyphen"/>poſe upon them: As the former is manag'd among the Men of Letters, ſo the other is calculated for the People of a lower ſize. I grant, that great Clerks are not always Wiſe Men; that Chriſt's fierceſt oppoſers have been found amongſt thoſe who have been Head and Shoulders taller than others in Natural Know<g ref="char:EOLhyphen"/>ledge: But becauſe ſome that have their Eyes, abuſe them, ſhall I chuſe a blind Man for my Guide. You may as ſoon expect to ſee a Man bred up at Plough or Cart, to ſteer a
+<pb n="49" facs="tcp:45628:31"/>
+Ship in a Storm, thrô Shelves and Rocks without daſhing, as ignorant Miniſters maintain the Preaching of the Goſpel, without falling into dangerous, if not damnable Errors; therefore be very cautious to whom you commit the Con<g ref="char:EOLhyphen"/>duct of your Souls.</p>
+            <p>Secondly, <hi>Pray for your Miniſters.</hi> It may be you don't profit under their Mi<g ref="char:EOLhyphen"/>niſtry, becauſe you deny them a ſhare in your Prayers; their Work is great, their Temptations many, and their Strength in themſelves ſmall; Never ſay you love 'em, while you are not concern'd to in<g ref="char:EOLhyphen"/>gage God to ſucceed them; pray that God would give them the Tongue of the learned to ſpeak a Word in ſeaſon to thy condition, and that he would give thee <hi>the hearing ear, and the underſtanding</hi> 
+               <note place="margin">
+                  <hi>Pro.</hi> 20. 12</note> 
+               <hi>heart,</hi> both which, are the gift of God.</p>
+            <p>Thirdly, <hi>Maintain Affection and Eſteem for your Miniſters.</hi> Let them not have cauſe to complain, Theſe are the wounds I receiv'd in the Houſes of ſuch and ſuch Profeſſed Friends. I ask you not ſuper<g ref="char:EOLhyphen"/>ſtitiouſly to idolize Men or Miniſters, <hi>yet let them be highly eſteemed for their works</hi> 
+               <note place="margin">1 <hi>The.</hi> 5. 13.</note> 
+               <hi>ſake:</hi> Thô they are but earthen Veſſels, yet they are intruſted with the moſt pre<g ref="char:EOLhyphen"/>cious Treaſure. What if their Perſons are no more, nay poſſibly leſs than other Men, yet their Office calls for Reſpect and Honour. They are Ambaſſadors of Chriſt, and by the Law of Nations Am<g ref="char:EOLhyphen"/>baſſadors are to have civil Uſage; be<g ref="char:EOLhyphen"/>ware of Prejudice, for he that is preju<g ref="char:EOLhyphen"/>dic'd
+<pb n="48" facs="tcp:45628:32"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="49" facs="tcp:45628:32"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="50" facs="tcp:45628:33"/>
+againſt the Perſon, will not, with<g ref="char:EOLhyphen"/>out a Miracle, be edified by his preach<g ref="char:EOLhyphen"/>ing; if <hi>Abab</hi> hate <hi>Micaiah,</hi> he will be in<g ref="char:EOLhyphen"/>raged rather than inſtructed by his admo<g ref="char:EOLhyphen"/>nition and warning; therefore maintain Affection and Eſteem for them.</p>
+            <p>Fourthly, <hi>Lay to heart what you are fre<g ref="char:EOLhyphen"/>quently hearing from your Miniſters while living:</hi> let not their Doctrine, which drops like the Rain, be only like a Show<g ref="char:EOLhyphen"/>er upon a Rock, where no Impreſſion is made, or a Tale that is told; but like <hi>Mary,</hi> lay up what thou heareſt in thy heart, that when thy Miniſter is remov'd thou mayſt be able to recollect and rumi<g ref="char:EOLhyphen"/>nate upon what was formerly deliver'd by him for thy Soul's Edification: Oh beware of looſing your Seaſons of Grace it may be, there are ſome here th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Morning, that may never hear anothe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Sermon, and will it not be a cutting con<g ref="char:EOLhyphen"/>ſideration, to think that of all you have heard of dying, you were never affecte<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> with it, nor mov'd to prepare for Deat by it. We have loſt many Eminent Mini<g ref="char:EOLhyphen"/>ſters, and is all loſt you have heard from them? Let not your Souls be like broke<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Ciſterns, that let out the pure water, and keep nothing but the Mud and Corrup<g ref="char:EOLhyphen"/>tion of this world. Labour to make them the Store-houſe of Divine Truths, <hi>giving moſt earneſt heed, leſt at any time you ſhould</hi> 
+               <note place="margin">
+                  <hi>Heb.</hi> 2. 1.</note> 
+               <hi>let them run out.</hi> And this is the true means to keep your Soul, both waking and work<g ref="char:EOLhyphen"/>ing, which is the right way of watching and waiting for the <hi>coming of our Lord.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:45628:33"/>
+         </div>
+      </body>
+   </text>
+</TEI>
